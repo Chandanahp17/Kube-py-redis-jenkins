@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: python-container
-          image: chandanahp77/pythonapp:v4-var
+          image: chandanahp/pythonapp:v4-var
           ports:
             - containerPort: 8000
           envFrom:
